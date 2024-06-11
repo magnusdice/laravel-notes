@@ -89,3 +89,13 @@ How to make return?
 
 ====CREATING A BADGE====
 1. Refer constants.jsx
+
+
+
+
+====HOW TO CHECK WHAT DATA HAS BEEN PASSED====
+1. In Controller you can put this in the function
+   \Log::info(json_encode($request->all()));
+    This will show the data that is passed from a form with funcntion and method POST such as name and token in laravel.log
+
+
