@@ -98,4 +98,8 @@ How to make return?
    \Log::info(json_encode($request->all()));
     This will show the data that is passed from a form with funcntion and method POST such as name and token in laravel.log
 
+===UDAPTE====
+In Controller.php
 
+to add new data update (sy jak yang faham ni)
+$data['col'] = 'string'; inside store
